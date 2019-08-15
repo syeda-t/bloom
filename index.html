@@ -3,8 +3,29 @@
 <head>
   <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
   <link rel = "stylesheet" href = "final.css">
-  <script src="help.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+    google.charts.load("current", {packages:["corechart"]});
+    google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+        ['Task', 'Hours per Day'],
+        ['Work',     11],
+        ['Eat',      2],
+        ['Commute',  2],
+        ['Watch TV', 2],
+        ['Sleep',    7]
+      ]);
+
+      var options = {
+        title: 'My Daily Activities',
+        is3D: true,
+      };
+
+      var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+      chart.draw(data, options);
+    }
+  </script>
 </head>
 <body>
 
@@ -27,8 +48,6 @@
 <iframe width="680" height="400" src="https://www.youtube.com/embed/ABch4VYOJZ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe src="https://www.google.com/maps/d/embed?mid=1AtND9Yr3YnOd4n5FihHQb1xdcZRLkJu3" width="540" height="400"></iframe>
-
-<canvas id="myChart" width="400" height="400"></canvas>
-
+<div id="piechart_3d" style="width: 900px; height: 500px;"></div>
 </body>
 </html>
