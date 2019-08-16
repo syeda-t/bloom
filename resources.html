@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+    <title>Quiz: How much do you know?</title>
+    <link rel="stylesheet" href="finalproject.css">
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Satisfy&display=swap" rel="stylesheet">
   <link rel = "stylesheet" href = "final.css">
   <script src="help.js"></script>
 
@@ -14,6 +17,7 @@
   <script src="help.js"></script>
 </head>
 <body>
+
 
   <header>
     <div class = "container">
@@ -33,7 +37,28 @@
   </header>
   </div><!--/ Codrops top bar -->
 
-      <h1>Resources<span></span></h1>
+    <center>  <h1>Resources</h1> </center>]
+    <div id="container">
+          <div id="start">Start Quiz!</div>
+          <div id="quiz" style="display: none">
+              <div id="question"></div>
+              <div id="qImg"></div>
+              <div id="choices">
+                  <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                  <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                  <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+              </div>
+              <div id="timer">
+                  <div id="counter"></div>
+                  <div id="btimeGauge"></div>
+                  <div id="timeGauge"></div>
+              </div>
+              <div id="progress"></div>
+          </div>
+          <div id="scoreContainer" style="display: none"></div>
+      </div>
+
+      <script src="finalproject.js"></script>
   <div class="main">
     <ul id="og-grid" class="og-grid">
       <li>

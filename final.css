@@ -52,5 +52,11 @@ nav a {
 }
 
 nav a:hover {
-  color: pink
+
+}
+
+h1 {
+  font-family: 'Satisfy', cursive;
+  font-size: 40px;
+  color:#ffd1dc;
 }
