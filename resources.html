@@ -4,6 +4,20 @@
   <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
   <link rel = "stylesheet" href = "final.css">
   <script src="help.js"></script>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thumbnail Grid with Expanding Preview</title>
+  <meta name="description" content="Thumbnail Grid with Expanding Preview" />
+  <meta name="keywords" content="thumbnails, grid, preview, google image search, jquery, image grid, expanding, preview, portfolio" />
+  <meta name="author" content="Codrops" />
+  <link rel="shortcut icon" href="../favicon.ico">
+  <link rel="stylesheet" type="text/css" href="css/default.css" />
+  <link rel="stylesheet" type="text/css" href="css/component.css" />
+  <script src="js/modernizr.custom.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+  <link rel = "stylesheet" href = "final.css">
+  <script src="help.js"></script>
 </head>
 <body>
   <p> ReSOurCEs </p>
@@ -22,5 +36,58 @@
     </nav>
   </div>
 </header>
+<p> ReSOurCEs </p>
+<header>
+<div class = "container">
+  <a href="index.html"> <img src="bloom.png" alt="BLOOM." width="140" height="70" class="logo"> </a>
+
+</header>
+  </div><!--/ Codrops top bar -->
+  <header class="clearfix">
+    <h1>Resources<span></span></h1>
+  </header>
+  <div class="main">
+    <ul id="og-grid" class="og-grid">
+      <li>
+        <a href="https://www.period.org/" data-largesrc="period.jpg" data-title="Period.org" data-description="PERIOD is a non profit organization founded by Nadya Okamoto and Vincent Forand, which focuses on supplying menstrual products for those who need it most, they believe menstrual care is a basic right">
+          <img src="period.jpg" width="250" height="250"  alt="period"/>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.moveforhunger.org/"data-largesrc="images/3.jpg" data-title="Move for Hunger " data-description="A non-profit organization that works with relocation companies to collect non-perishable food items, and deliver it to food banks all across North America.>
+          <img src="images/thumbs/3.jpg"  width="250" height="250" alt="img03"/>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.thepadproject.org/" data-largesrc="images/1.jpg" data-title="Period.End of Sentence" data-description=" A short documentary focuses on a revolution lead by Indian woman to destigmatize periods and to provide access to period products through the creation of them.">
+          <img src="images/thumbs/1.jpg" width="250" height="250"  alt="img01"/>
+        </a>
+      </li>
+    <li>
+        <a href="https://www.habitat.org/" data-largesrc="images/4.jpg" data-title="Habitat for Humanity" data-description="Habitat for Humanity is a nonprofit organization that helps families build and improve places to call home. They believe affordable housing plays a critical role in strong and stable communities..">
+          <img src="images/thumbs/4.jpg"   width="250" height="250"  alt="img04"/>
+        </a>
+
+      </li>
+
+        <li>
+      <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/2.jpg" data-title="TheHomelessPeriod"" data-description=" An organization that lead a petition that promotes free tampons for homeless women.">
+          <img src="images/thumbs/2.jpg"  width="250" height="250"  alt="img02"/>
+        </a>
+      </li>
+    </p>
+
+
+    </ul>
+\
+  </div>
+</div><!-- /container -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/grid.js"></script>
+<script>
+  $(function() {
+    Grid.init();
+  });
+</script>
 </body>
 </html>
