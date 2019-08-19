@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link type="text/css" rel="stylesheet" media="screen" href="jquery-sakura.min.css" />
   <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
   <link rel = "stylesheet" href = "final.css">
   <link href='https://fonts.googleapis.com/css?family=MontserratLight' rel='stylesheet'>
@@ -546,5 +547,21 @@
   This map provides information of the inaccessibility of menstrual products in a few countries and states and some measures being taken against this issue.
 </textarea>
 </center>
+<script src="jquery-sakura.min.js"></script>
+<script>
+
+
+    // windowLoad
+    $(window).load(function() {
+        $('body').sakura();
+    });
+    $(window).load(function() {
+    $('body').sakura('start', {
+        maxSize: 25,         // Maximum petal size
+        minSize: 9,          // Minimum petal size
+
+    });
+});
+</script>
 </body>
 </html>
