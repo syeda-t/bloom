@@ -60,3 +60,30 @@ h1 {
   font-size: 40px;
   color:#ffd1dc;
 }
+
+.commentBox {
+  width: 90%;
+  height: 120px;
+  border: 1px solid #000
+}
+
+.leftPanelImg {
+  width:50%;
+  height: 60px;
+  border: 1px solid #000;
+}
+
+.rightPanel {
+  width:50%;
+  height: 60px;
+  border: 1px solid #000;
+}
+
+
+<div class="commentBox">
+  <div class="leftPanelImg"></div>
+  <div class="rightPanel"><div>
+</div>
+
+<script src="commentsection.js" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>

@@ -6,6 +6,100 @@
 <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/barrio" type="text/css"/>
 <link href='https://fonts.googleapis.com/css?family=Bad Script' rel='stylesheet'>
 <script src="help.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html {
+  box-sizing: border-box;
+}
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+
+}
+
+.column {
+  float: left;
+  vertical-align: top;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+    vertical-align: top;
+    float: left;
+
+  }
+}
+
+
+.row{
+    width:100%;
+    vertical-align: top;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+}
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+
+
+
+#Syeda{
+  -webkit-transform:rotate(-360deg);
+  -moz-transform: rotate(-360deg);
+  -ms-transform: rotate(-360deg);
+  -o-transform: rotate(-360deg);
+  transform: rotate(-360deg);
+}
+p {
+  font-family: "Fjalla One", Open Sans;
+}
+img {
+  display: block;
+
+}
+</style>
+
 </head>
 <body>
 <p>  </p>
@@ -27,7 +121,62 @@
 <center>
   <h2>Our Mission</h2>
 <h2>As a organization, we strive to target women of low income backgrounds who are in need of crucial resources that can be very beneficial to their lives and well-being. Since we aim to empower women, we look to provide various types of resources that can benefit their feminine hygiene and therefore increasing  their self-esteem. Implementing our knowledge and research, we located various types of women worldwide who can benefit from our respective goals. Among these goals, one of them includes raising  awareness and insight on the overlooked groups that will help us provide you with the most information as possible. Overall, our main goal is to promote that women always believe in themselves and that they have confidence in their worth and abilities.</h2>
+<h1><center>About Us</center></h1>
+<p><center><h3>Co-Founders of Bloom</h3></center></p>
+<br>
 
+<div>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+      <img id="Syeda" src="Syeda.jpg" alt="Syeda" style="width:100%">
+        <div class="container">
+          <h2>Syeda Tabassum</h2>
+          <p class="title">Co-founder</p>
+          <p>Syeda is a Bangladeshi-American women who resides in Queens, New York City and attends Bard High School Early College.  She is an active advocate for human rights and giving back to her community. She enjoys art-making, film, photography, dance, and programming i n her free time.</p>
+          <p>syedatabassum93@gmail.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="Jayda.jpg" alt="Jayda" style="width:100%">
+        <div class="container">
+          <h2>Jayda Wade</h2>
+          <p class="title">Co-founder</p>
+          <p>Jayda is a student attending Francis Lewis High School. She is deeply passionate about helping those in need and giving them access to essential resources. In her free time, she enjoys dancing, singing, playing tennis, writing poems and computer programming.</p>
+          <p>jayda.a.wade@gmail.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+      <div class="column">
+        <div class="card">
+          <img src="Naoroz2.jpg" alt="Naoroz" style="width:100%">
+          <div class="container">
+            <h2>Naoroz Mahmood</h2>
+            <p class="title">Co-founder</p>
+            <p>Naoroz is someone who has been passionate about many things throughout her life. With her childhood being spent deeply immersed into the world of music, she now focuses her time on giving back to the world around her.</p>
+            <p>naoroz.mahmood@appabx.org</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+      </div>
+        <div class="column">
+          <div class="card">
+            <img src="Myrai.jpg" alt="Myrai" style="width:100%">
+            <div class="container">
+              <h2>Myrai Bailey</h2>
+              <p class="title">Co-founder</p>
+              <p>Myrai is a very observant person who has always been interested in how the world can be improved. Throughout her life she has developed several leadership traits that has contributed to her personal insight on society. Myrai is a rising upper-class high school student in Queens, New York., who enjoys reading, nature based photography and law based shows.</p>
+              <p>myrai.bailey@ihpch.org</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
 </body>
 </html>
-
