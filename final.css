@@ -65,7 +65,8 @@ h1 {
 .commentBox {
   padding:1%;
   width: 96%;
-  border: 1px solid #000
+  border: 1px solid #000;
+  background-color: lightpink;
 }
 
 .leftPanelImg {
