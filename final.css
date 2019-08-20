@@ -97,7 +97,7 @@ h1 {
 }
 
 .form input[type="text"], .form textarea, .form input[type="date"] {
-  border: 1px solid #000;
+  border: 1px solid rgb(97, 97, 97);
   padding: 2px;
   width: 300px;
 }
