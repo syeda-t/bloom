@@ -21,13 +21,25 @@ header {
   margin-top: 10px
 }
 
+.textboxformat1 {
+  border: 1px solid #000;
+  background: white;
+  width: 800px;
+  height: 55px;
+  color: black;
+  font-size: 12px;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 10px;
+  margin-bottom: 20px
+}
 header::after {
   content: '';
   display: table;
   clear: both;
 }
 
-.container {
+.container1 {
   width: 92%;
   margin: 0 auto;
 }
