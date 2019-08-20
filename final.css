@@ -9,6 +9,18 @@ header {
   background-color: #d0dfe1ff;
 }
 
+.textboxformat {
+  border: 1px solid #000;
+  background: white;
+  width: 800px;
+  height: 80px;
+  color: black;
+  font-size: 12px;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 10px
+}
+
 header::after {
   content: '';
   display: table;

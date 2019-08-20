@@ -7,13 +7,11 @@
   <link rel = "stylesheet" href = "final.css">
   <link href='https://fonts.googleapis.com/css?family=MontserratLight' rel='stylesheet'>
   <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
-<style>
-</style>
-<center>
+
+<!-- <center> -->
   <header>
   <div class = "container">
     <a href="index.html"> <img src="bloom.png" alt="BLOOM." width="140" height="70" class="logo"> </a>
-  </area>
     <nav>
       <ul>
         <li><a id="home" href="index.html">Home</a></li>
@@ -26,7 +24,7 @@
 </header>
 
 
-  <style>
+<style>
   * {box-sizing: border-box;}
   body {font-family: Lexend Deca;
     font-size:10px;}
@@ -103,41 +101,38 @@
     resize: vertical;
   }
 
-  </style>
+</style>
   </head>
   <body>
-
-  <h2></h2>
-  <p></p>
 
   <div class="slideshow-container">
 
   <div class="mySlides fade">
     <div class="numbertext">1 / 5</div>
-    <img id="firstimg" src="https://www.gannett-cdn.com/presto/2019/04/22/PVIT/3c94bf05-94f1-402a-84df-4e4e46fec3de-0422_Homeless_TCSO_7351.jpg?crop=5567,3131,x1,y172&width=3200&height=1680&fit=bounds" width="900" height="500">
+    <img id="firstimg" src="Slideshow1.jpg" width=100% height=500px>
     <div class="text"></div>  </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 5</div>
-    <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/12/24/12/homeless-woman-getty.jpg?w968h681" width="800" height"200">
+    <img src="Slideshow2.jpg" width=100% height=500px>
     <div class="text"></div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 5</div>
-    <img src="https://news.images.itv.com/image/file/1773249/stream_img.jpg" width="800" height"600">
+    <img src="Slideshow3.jpg" width=100% height=500px>
     <div class="text"></div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">4 / 5</div>
-    <img src="https://images.ctfassets.net/81iqaqpfd8fy/43n1LWlPbi64oaeiQeUiQ0/d3d9c4a5582ff7d74899dcbb032af692/Homeless.jpg?w=1440&h=620"  width="800" height"600">
+    <img src="Slideshow4.jpg"  width=100% height=500px>
     <div class="text"></div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">5 / 5</div>
-    <img src="https://pbs.twimg.com/profile_images/745911439693578240/YpLOv20I.jpg" width="600" height"600">
+    <img src="Slideshow5.jpg" width=100% height=500px>
     <div class="text">Photo Creds:https://pbs.twimg.com/profile_images/745911439693578240/YpLOv20I.
       https://www.gannett-cdn.com/presto/2019/04/22/PVIT/3c94bf05-94f1-402a-84df-4e4e46fec3de-0422_Homeless_TCSO_7351.jpg?crop=5567,3131,x1,y172&width=3200&height=1680&fit=bounds
       https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/12/24/12/homeless-woman-getty.jpg?w968h681
@@ -179,14 +174,23 @@
 
   <iframe width="800" height="400" src="https://www.youtube.com/embed/ABch4VYOJZ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-  <textarea name="text"  cols="80" rows="6">
+<div class = "textboxformat">
+  <p>
     How do women cope with periods? Have you ever asked yourself that? In this video NSFW WOMEN show us the hardships that women face in being homeless and not having access to menstruation products. These women have to deal with infections as a result of not being able to purchase sanitary supplies.
-  </textarea>
+  </p>
 </center>
 </div>
+
 <div>
 
   <style type="text/css">
+
+  h2 {
+    font-size: 40px;
+    font-family: "Fjalla One", sans-serif;
+    color: rgb(97, 97, 97);
+  }
+
      #chart text {
          fill: black;
          font: 13px times;
@@ -205,23 +209,25 @@
 
      body {
          color: #eaeaea;
-         padding: 10px;
      }
 
      path {
          stroke: grey;
          stroke-width: 2;
          fill: none;
+
+    }
      }
   </style>
-  <div id="chart" style="height:600px;width:600px">
-     <div class="innerCont" style="overflow: auto; top:100px; left: 400px; height:91% ; Width:100% ;position: relative;overflow: hidden;" />
+  <center> <h2> Causes of Homelessness </h2> </center>
+  <div id="chart" style="height:550px;width:550px">
+     <div class="innerCont" style="overflow: auto; top:10px; left: 300px; height: 20% ; Width:100% ;position: relative;overflow: hidden;" />
   </div>
   <script src="https://code.jquery.com/jquery-1.12.4.min.js" charset="utf-8"></script>
   <script src="https://d3js.org/d3.v2.min.js"></script>
   <script type="text/javascript">
      var salesData;
-     var chartInnerDiv = '<div class="innerCont" style="overflow: auto;top:100px; left: 400px; height:91% ; Width:100% ;position: relative;overflow: hidden;"/>';
+     var chartInnerDiv = '<div class="innerCont" style="overflow: auto;top:10px; left: 300px; height:91% ; Width:100% ;position: relative;overflow: hidden;"/>';
      var truncLengh = 30;
 
      $(document).ready(function () {
