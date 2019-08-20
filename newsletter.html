@@ -12,10 +12,8 @@ ul {font-family: Lexend Deca;
   font-size:20px;}
 </style>
 </head>
-<body>
+<body id="formfont">
 
-  <script src="commentsection.js" type="text/javascript"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
 <header>
   <div class = "container">
@@ -111,15 +109,24 @@ function magnify(imgID, zoom) {
 </head>
 </body>
 
-<div>
-  <div class="img-magnifier-container">
-    <img id="newscast" src="newscast.jpg" width="600" height="800">
-    <img id= "newscast2" src= "bloom2.jpg" width="600" height="800" align= right alt="bloomcast2">
-  </div>
-  <div id= "container">
 
-  </div>
+<div class="img-magnifier-container">
+  <img id="newscast" src="newscast.jpg" width="600" height="800">
+  <img id= "newscast2" src= "bloom2.jpg" width="600" height="800" align= right alt="bloomcast2">
 </div>
+
+<div class="form">
+  <h4>Add Comment</h4>
+  Name: <input type="text" id="name" /> <br /><br />
+  Date: <input type="date" id="date" /> <br /><br />
+  Body: <textarea rows="5" col="30" id="bodyText"></textarea><br /><br />
+  <input type="button" id="addComment" value="Add Comment" />
+</div>
+<div id="container">
+</div>
+
+
+
 
 
 
