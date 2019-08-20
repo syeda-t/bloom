@@ -106,3 +106,8 @@ h1 {
   font-size: 15px;
   font-family: times, sans-serif;
 }
+
+a {
+  color:inherit;
+  text-decoration: inherit;
+}
